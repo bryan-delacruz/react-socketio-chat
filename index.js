@@ -5,7 +5,7 @@ import { Server as SocketServer } from "socket.io";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
-import { PORT } from "./config.js";
+import { PORT } from "./server/config.js";
 import cors from "cors";
 
 // Initializations
